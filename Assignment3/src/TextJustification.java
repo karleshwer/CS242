@@ -12,7 +12,7 @@
  *  Assignment: 3
  *  Problem: Text Justification.
  *  Description: Compare experimentally the result obtained justifying text with a greedy algorithm (as used by MS
- *				 Word) against doing the same using LATEX rules and Dynamic Programming.
+ *		 Word) against doing the same using LATEX rules and Dynamic Programming.
  *
  *  Input: Number of words expected in output & Page width
  *  Output: Justified .txt file (just.txt) & Unjustified .txt file (unjust.txt) 
