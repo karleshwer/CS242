@@ -161,13 +161,13 @@ public class TextJustification {
 
 			int spaces = width - l(W, i, j) + j - i - 1;
 
-			int consult;
+			int quotient;
 			int remainder;
 			if ((j - i) == 1) {
 				remainder = 0;
-				consult = 0;
+				quotient = 0;
 			} else {
-				consult = spaces / (j - i - 1);
+				quotient = spaces / (j - i - 1);
 				remainder = spaces % (j - i - 1);
 			}
 
@@ -177,7 +177,7 @@ public class TextJustification {
 			String str = new String();
 			str += W[i];
 			while (i < j - 1) {
-				for (int a = 0; a < consult; a++) {
+				for (int a = 0; a < quotient; a++) {
 					str += " ";
 				}
 				if (i < remainder)
